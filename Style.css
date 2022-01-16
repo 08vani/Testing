@@ -1,0 +1,79 @@
+/* default styling  */
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Decendent Selectors : cobinators*/
+header h1{
+   font-weight: 400; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+nav{
+    position: relative; /* Allows to move the element to top left right and bottom to relative to it's intial fixed position:  */
+    top: 1rem;
+    right: 3rem;
+    width: 20rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+/* Class selector  */
+.showcase_img
+{
+    width: 95vw;
+    margin: 1rem ;
+}
+
+article
+{
+    display: flex;
+    margin: 1.5rem;
+}
+
+.content
+{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem ;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-weight: 400;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* pseudoclass: hover */
+a:hover{
+    color: red;
+}
